@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f9;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #00438ad9;
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffdd57;
+}
+
+.nav-link.logout {
+  color: #f4a5a5;
+}
+
+.content {
+  flex: 1;
+  padding: 20px 0;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+button {
+  background-color: #00438ad9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00438ad9;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus,
+select:focus {
+  border-color: #00438ad9;
+  outline: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #00438ad9;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.motivation {
+  margin-top: 50px; /* Добавляем отступ сверху */
+}
+
+.motivation h3 {
+  margin-bottom: 10px; /* Добавляем отступ снизу для заголовка */
+}
+
+.quote {
+  font-style: italic; /* Курсив для мотивационного сообщения */
+  font-weight: bold; /* Усиливаем курсив */
+  color: #262626ad; /* Цвет между серым и черным */
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #007bff;
+  outline: none;
+}

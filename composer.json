@@ -1,0 +1,12 @@
+{
+  "name": "your-project-name/project",
+  "description": "A brief description of your project",
+  "type": "project",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Project\\Controllers\\": "controllers/",
+      "Project\\Models\\": "models/"
+    }
+  }
+}
